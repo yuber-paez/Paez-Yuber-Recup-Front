@@ -24,7 +24,7 @@ header {
     justify-content: center;
     height: 9vh;
     width: 26%;
-    background: linear-gradient( 114deg, #EBB4AE 91%, white 9%);
+    background: linear-gradient( 114deg, #9D49BA 91%, white 9%);
 }   
 
 .main-container {
@@ -88,8 +88,8 @@ header {
 }
 
 footer {
-    background-color: #002d62; 
-    color: white;
+    background-color: #E0B7DB; 
+    color: black;
     text-align: center;
     padding: 15px 10px; 
     font-size: 14px;

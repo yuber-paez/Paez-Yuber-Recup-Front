@@ -1,11 +1,14 @@
 body {
-    background-image: url(../img/back.jpg);
+    background-image: url(../img/b.jpg);
     margin: 0;
     padding: 0;
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat; /* lineas para acomodar el tamaño del background de la imagen*/
+    background-size: cover;
 }
 
 header {
@@ -26,7 +29,7 @@ header {
     align-items: center;
     width: 80%;
     height: 5vh;
-    background: linear-gradient( 114deg, transparent 96%, #EBB4AE 4%);
+    background: linear-gradient( 114deg, transparent 96%, #9D49BA 4%);
 }
 
 .left p {
@@ -46,7 +49,7 @@ header {
     justify-content: center;
     display: flex;
     width: 20%;
-    background-color: #EBB4AE;
+    background-color: #9D49BA;
 }
 
 .right i {
@@ -70,7 +73,7 @@ header {
     justify-content: center;
     height: 9vh;
     width: 26%;
-    background: linear-gradient( 114deg, #EBB4AE 91%, white 9%);
+    background: linear-gradient( 114deg, #9D49BA 91%, white 9%);
 }   
 
 .right2 {
@@ -102,8 +105,7 @@ header {
 
 
 .container-1 {
-    background: linear-gradient(to right, #f29caf 10%, #ffffff 90%);
-    background-color: #a25876;
+    background: linear-gradient(to right, #85587F 10%, #ffffff 90%);
     display: flex;
     flex-direction: column;
     align-items: center; 
