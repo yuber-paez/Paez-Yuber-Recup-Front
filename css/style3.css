@@ -142,14 +142,20 @@ header {
 }
 
 .last-inf button {
-    margin: 10px;
+    border: none;
+    padding: 5px;
+    margin-top: 20px;
+    width: 100px;
+    background-color: #9D49BA;
     border-radius: 0;
-    border: 1px solid blue;
-    color: white;
-    height: 35px;
-    width: auto;
-    background-color: #9D6CE0;
+    border: solid 1px white;
 }
+
+.last-inf button:hover {
+    background-color: #E0B7DB;
+    border: solid 1px black;
+}
+
 
 .last-inf i {
     margin-right: 5px;

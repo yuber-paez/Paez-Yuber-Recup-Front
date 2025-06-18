@@ -87,6 +87,20 @@ header {
     margin-top: 20px;
 }
 
+.card1 button {
+    border: none;
+    padding: 5px;
+    margin-top: 20px;
+    width: 100px;
+    background-color: #9D49BA;
+    border-radius: 0;
+}
+
+.card1 button:hover {
+    background-color: #E0B7DB;
+    border: solid 1px black;
+}
+
 footer {
     background-color: #E0B7DB; 
     color: black;
