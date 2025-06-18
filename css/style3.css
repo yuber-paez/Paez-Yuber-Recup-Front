@@ -28,9 +28,10 @@ header {
 }   
 
 .main-container {
-    height: 91vh;
+    height: 70vh;
     align-content: center;
     justify-items: center;
+    flex-direction: column;
 }
 
 .container-top {
@@ -47,16 +48,19 @@ header {
 
 .container {
     background-color: white;
-    height: 85%;
+    height: 65%;
     width: 100%;
-    display: flex;
     margin-top: 50px;
+}
+
+.form2 {
+    display: flex;
 }
 
 .c1 {
     display: flex;
-    gap: 10px;
-    justify-content: start;
+    gap: 20px;
+    margin-left: 75px;
     margin-top: 50px
 }
 
@@ -71,7 +75,6 @@ header {
 .container-left {
     width: 50%;
     justify-items: center;
-
  }
 
 .container-right {
@@ -90,4 +93,39 @@ header {
     width: 400px;
     height: 35px;
     margin-top: 10px;
+    padding: 10px;
+}
+
+.container-des {
+    height: 10%;
+    width: 85%;
+}
+
+.container-tex {
+    height: 30%;
+    width: 85%;
+    justify-items: center;
+}
+
+.cont-tit {
+    height: 10%;
+    width: 85%;
+}
+
+.cont-tex {
+    height: 20%;
+    width: 85%;
+}
+
+.cont-tex p {
+    margin-left: 75px;
+    text-align: start;
+    color: black;
+    font-size: 18px;
+}
+
+.cont-im {
+    height: 20%;
+    width: 85%;
+    background-color: red;
 }
