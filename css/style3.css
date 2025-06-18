@@ -85,7 +85,7 @@ header {
 .group {
     margin-top: 20px;
     font-size: 18px;
-    color: orange;
+    color: #9D6CE0;
 }
 
 .group input {
@@ -144,10 +144,11 @@ header {
 .last-inf button {
     margin: 10px;
     border-radius: 0;
-    border: 1px solid red;
+    border: 1px solid blue;
     color: white;
     height: 35px;
     width: auto;
+    background-color: #9D6CE0;
 }
 
 .last-inf i {
@@ -155,8 +156,8 @@ header {
 }
 
 footer {
-    background-color: #002d62; 
-    color: white;
+    background-color: #E0B7DB; 
+    color: black;
     text-align: center;
     padding: 15px 10px; 
     font-size: 14px;
@@ -165,7 +166,7 @@ footer {
 }
 
 footer a {
-    color: #f76b1c; 
+    color: #9D6CE0; 
     text-decoration: none;
     font-weight: bold;
 }

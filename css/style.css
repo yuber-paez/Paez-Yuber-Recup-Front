@@ -78,7 +78,6 @@ header {
 
 .right2 {
     background-color: white;
-    color: black;
     height: 9vh;
     width: 74%;
     display: flex;
@@ -164,9 +163,21 @@ header {
 }
 
 .right2 a:hover {
-    color: red;
+    color: #9D49BA;
 }
 
 .right2 select:hover {
-    color: red;
+    color: #9D49BA;
+}
+ 
+.cl a{
+    color: #9D49BA;
+}
+
+.cl a:hover{
+    color: black;
+}
+
+.cl2 a{
+    opacity: 0.5;
 }
