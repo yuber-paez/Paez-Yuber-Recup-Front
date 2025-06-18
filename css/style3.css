@@ -45,6 +45,7 @@ header {
 .container-top h5 {
     margin-left: 40px;
     margin-top: 20px;
+    opacity: 0.7;
 }
 
 .container {
@@ -62,7 +63,8 @@ header {
     display: flex;
     gap: 20px;
     margin-left: 75px;
-    margin-top: 50px
+    margin-top: 50px;
+    opacity: 0.7;
 }
 
 .c1 i {
@@ -98,7 +100,7 @@ header {
 }
 
 .container-des {
-    margin-top: -60px;
+    margin-top: -50px;
     height: 8%;
     width: 85%;
 }
@@ -110,7 +112,7 @@ header {
 }
 
 .cont-tit {
-    margin-top: -20px;
+    margin-top: 0;
     height: 10%;
     width: 85%;
 }
@@ -125,6 +127,7 @@ header {
     text-align: start;
     color: black;
     font-size: 18px;
+    opacity: 0.7;
 }
 
 .cont-im {
@@ -139,9 +142,12 @@ header {
     border: solid 1px #CCCCCC;
 }
 
+.ft input {
+    border: none;
+}
+
 .last-inf {
     text-align: center;
-
 }
 
 .last-inf button {
