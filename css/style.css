@@ -104,20 +104,24 @@ header {
 .container-1 {
     background: linear-gradient(to right, #f29caf 10%, #ffffff 90%);
     background-color: #a25876;
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-items: center;
+    align-items: center; 
+    justify-content: center;
     height: 300px;
     width: 33%;
     clip-path: polygon(50% 75%, 100% 100%, 100% 0, 0 0, 0 100%);
 }
 
 .container-1 img {
-    margin-top: 30px;
+    align-content: center;
 }
 
-.container-1 p {
-    margin-top: -35px;
+.container-1 h4 {
+    margin-top: -30px;
+    margin-left: 120px;
+    font-size: 13px;
+    color: black;
 }
 
  .content {
@@ -155,4 +159,12 @@ header {
     display: flex;
     align-items: center;
     justify-items: center;
+}
+
+.right2 a:hover {
+    color: red;
+}
+
+.right2 select:hover {
+    color: red;
 }

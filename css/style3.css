@@ -4,7 +4,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    min-height: 180vh;
+    min-height: 175vh;
 }
 
 header {
@@ -125,7 +125,7 @@ header {
 }
 
 .cont-im {
-    height: 20%;
+    height: 10%;
     width: 85%;
 }
 
@@ -138,6 +138,7 @@ header {
 
 .last-inf {
     text-align: center;
+
 }
 
 .last-inf button {
@@ -145,6 +146,8 @@ header {
     border-radius: 0;
     border: 1px solid red;
     color: white;
+    height: 35px;
+    width: auto;
 }
 
 .last-inf i {
